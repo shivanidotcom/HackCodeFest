@@ -1,0 +1,72 @@
+.WeatherCard {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 360px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.WeatherCardImg {
+  width: 150px;
+  height: 150px;
+}
+.WeatherCardItem {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 10px 0 0 0;
+}
+.WeatherCardItemIcon {
+  width: 32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 32px;
+  border-radius: 50px;
+  background-color: #dfe3efc6;
+  color: #38393bd9;
+  margin: auto 0;
+}
+.WeatherCardItemBody h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #38393b;
+  margin: 0;
+  margin-left: 10px;
+}
+.WeatherCardItemBody p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #38393b;
+  margin: 0;
+  margin-left: 10px;
+}
+.temp_c {
+  font-size: 52px;
+  font-weight: 500;
+  color: #38393b;
+  margin: 0;
+  color: #333;
+  margin-left: 10px;
+}
+.placeTxt {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: #38393b;
+  margin: 0;
+  margin-left: 10px;
+}
+.WeatherNow {
+  font-size: 16px !important;
+  margin: 0;
+  margin-right: auto;
+}
+.condition {
+  font-size: 18px !important;
+}
